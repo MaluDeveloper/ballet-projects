@@ -1,5 +1,27 @@
 # Ballet Academy Lumière Étoile — Site institucional + Admin (Supabase)
 
+## Produção (Vercel)
+- **Site**: https://balletacademylm-nphbi638s-maludevelopers-projects.vercel.app/
+- **Admin**: https://balletacademylm-nphbi638s-maludevelopers-projects.vercel.app/admin
+
+## Screenshots
+
+### Site
+![Home](screenshots/Home.png)
+![Nossa História](screenshots/Nossa-Historia.png)
+![Aulas](screenshots/Aulas.png)
+![Blog](screenshots/Blog.png)
+![Galeria](screenshots/Galeria.png)
+
+### Admin
+![Autenticação](screenshots/Autenticacao.png)
+![Dashboard](screenshots/Dashboard.png)
+![Lista Blog](screenshots/Lista-Blog.png)
+![Criar Post](screenshots/Criar-Post.png)
+![Criar Modalidade](screenshots/Criar-Modalidade.png)
+![Lista Eventos](screenshots/Lista-Eventos.png)
+![Criar Evento](screenshots/Criar-Evento.png)
+
 ## 1. Visão geral
 
 Este projeto é um **site institucional** do estúdio com páginas públicas (Home, Aulas/Modalidades, Blog, Galeria etc.) e um **painel administrativo** para gerenciamento do conteúdo.
