@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
-import SectionHeading from "@/components/SectionHeading";
+import SectionHeading from "@/components/shared/SectionHeading";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { X } from "lucide-react";
 import { fetchGalleryPhotos, type CmsGalleryPhoto } from "@/lib/cms";

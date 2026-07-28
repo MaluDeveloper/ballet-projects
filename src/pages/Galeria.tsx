@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import PageHeroCarousel from "@/components/PageHeroCarousel";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import PageHeroCarousel from "@/components/sections/PageHeroCarousel";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { X } from "lucide-react";
 import galeriaHero1 from "@/assets/galeria-hero-1.jpg";

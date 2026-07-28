@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 const Reveal = ({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) => {
   const { ref, isVisible } = useScrollReveal(0.12);

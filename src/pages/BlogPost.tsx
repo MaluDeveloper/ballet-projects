@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import { ArrowLeft, ChevronLeft, ChevronRight } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { fetchPublicPosts, makePostSlug, type CmsPost } from "@/lib/cms";

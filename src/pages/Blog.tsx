@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { Link } from "react-router-dom";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import PageHeroCarousel from "@/components/PageHeroCarousel";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import PageHeroCarousel from "@/components/sections/PageHeroCarousel";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { fetchPublicPosts, makePostSlug, type CmsPost } from "@/lib/cms";
 import blogHero1 from "@/assets/blog-hero-1.jpg";

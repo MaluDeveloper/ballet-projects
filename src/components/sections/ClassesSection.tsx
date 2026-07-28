@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import SectionHeading from "@/components/SectionHeading";
+import SectionHeading from "@/components/shared/SectionHeading";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { fetchPublicModalidadesAsCards, type PublicModalidadeCard } from "@/lib/modalidadesPublic";
 import { X, Calendar, Clock, User } from "lucide-react";

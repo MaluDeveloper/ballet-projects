@@ -1,6 +1,6 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import PageHeroCarousel from "@/components/PageHeroCarousel";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import PageHeroCarousel from "@/components/sections/PageHeroCarousel";
 import { Button } from "@/components/ui/button";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { fetchPublicModalidadesAsCards, type PublicModalidadeCard } from "@/lib/modalidadesPublic";

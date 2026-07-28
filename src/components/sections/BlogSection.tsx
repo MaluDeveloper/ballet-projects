@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import SectionHeading from "@/components/SectionHeading";
+import SectionHeading from "@/components/shared/SectionHeading";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { fetchPublicPosts, makePostSlug, type CmsPost } from "@/lib/cms";
 

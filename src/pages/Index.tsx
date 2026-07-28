@@ -1,10 +1,10 @@
-import Navbar from "@/components/Navbar";
-import HeroCarousel from "@/components/HeroCarousel";
-import BlogSection from "@/components/BlogSection";
-import ClassesSection from "@/components/ClassesSection";
-import GallerySection from "@/components/GallerySection";
-import EventsSection from "@/components/EventsSection";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/layout/Navbar";
+import HeroCarousel from "@/components/sections/HeroCarousel";
+import BlogSection from "@/components/sections/BlogSection";
+import ClassesSection from "@/components/sections/ClassesSection";
+import GallerySection from "@/components/sections/GallerySection";
+import EventsSection from "@/components/sections/EventsSection";
+import Footer from "@/components/layout/Footer";
 
 const Index = () => {
   return (

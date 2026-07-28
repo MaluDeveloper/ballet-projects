@@ -1,9 +1,9 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import SectionHeading from "@/components/SectionHeading";
+import SectionHeading from "@/components/shared/SectionHeading";
 
-import PageHeroCarousel from "@/components/PageHeroCarousel";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import PageHeroCarousel from "@/components/sections/PageHeroCarousel";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import { Heart, Star, Award, Sparkles, BookOpen, Users } from "lucide-react";
 
 import historiaHero1 from "@/assets/historia-hero-1.jpg";

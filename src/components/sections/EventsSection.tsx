@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { MapPin, Clock, Calendar } from "lucide-react";
-import SectionHeading from "@/components/SectionHeading";
+import SectionHeading from "@/components/shared/SectionHeading";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { fetchEvents, type CmsEvent } from "@/lib/cms";
 
